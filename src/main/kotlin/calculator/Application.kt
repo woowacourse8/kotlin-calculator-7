@@ -11,11 +11,6 @@ fun main() {
         return
     }
 
-    if (input.toIntOrNull() != null){
-        println("결과 : $input")
-        return
-    }
-
     val stringList = Divider().stringDivide(input)
     val intList = Converter().convertStringToInt(stringList)
 
